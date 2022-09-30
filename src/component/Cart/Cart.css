@@ -1,0 +1,14 @@
+.btnn{
+    padding: 0px 10px;
+    font-weight: bold;
+    border: none;
+    border-radius: 50%;
+    text-align: center; 
+    cursor: pointer
+}
+.pricce{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-right: 40px;
+}

@@ -1,0 +1,33 @@
+
+
+/*****container*******/
+#container{margin:20 auto;width:90%;text-align: center;}
+	
+/****container-not-found *****/	
+
+
+.container-notfound{ width:40%; margin: 5% auto; background: white;border-radius: 20px;box-shadow: #676665 2px 11px 76px -12px}
+
+
+
+      
+.error-message-header {color:#fff;position:relative;}
+.error-message-header h3 {font-size: 25px;line-height: 90px;}   
+   
+.message-header{border-top-left-radius: 20px;border-top-right-radius: 20px;border-bottom-left-radius: 110px;border-bottom-right-radius: 110px; border-bottom: solid 70px #fff; border-bottom: solid 1px #9E9E9E; border-right: solid 1px gray;height: 90px;line-height: 50px; background: #F44336;}
+.error-message-content {padding: 20px;}  
+.message-content { margin: 25px auto; align-items: center; background: #F44336;color: white; border-radius: 50%; width: 100px; height: 100px; box-sizing: border-box;font-size: 18px; padding-top: 25px;box-shadow: #7b7676 0px 0px 10px 1px;}   
+
+.error-message-footer { height: 40px;}
+   
+.btn{  color:white;}
+.btn-left{border-bottom-left-radius:20px;border-right: dashed 1px white;box-sizing: border-box;}
+.btn-right{border-bottom-right-radius:20px;}
+  
+ 
+
+/* for mobile phone*/
+@media only screen and (max-width:768px)
+{
+	.container-notfound{width: 80%; }
+}
