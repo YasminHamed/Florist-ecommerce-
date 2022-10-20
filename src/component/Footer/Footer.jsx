@@ -3,13 +3,13 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-<footer class="footer-distributed">
+<footer className="footer-distributed">
 
-<div class="footer-left">
+<div className="footer-left">
 
   <img src="data:image/webp;base64,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" alt="" />
 
-  <p class="footer-links">
+  <p className="footer-links">
     <a className="mr-2 ml-2 link-1" href="/Home">Home</a>
       
     <a className="mr-2 ml-2" href="/Service">Services</a>
@@ -19,36 +19,36 @@ const Footer = () => {
     <a className="mr-2 ml-2" href="/Contact">Contact</a>
   </p>
 
-  <p class="footer-company-name">Florist Company © 2015</p>
+  <p className="footer-company-name">Florist Company © 2015</p>
 </div>
 
-<div class="footer-center">
+<div className="footer-center">
 
   <div>
-    <i class="fa fa-map-marker"></i>
+    <i className="fa fa-map-marker"></i>
     <p><span>444 S. Cedros Ave</span> Solana Beach, California</p>
   </div>
 
   <div>
-    <i class="fa fa-phone"></i>
+    <i className="fa fa-phone"></i>
     <p>+966 579 933 292</p>
   </div>
 
   <div>
-    <i class="fa fa-envelope"></i>
+    <i className="fa fa-envelope"></i>
     <p><a href="mailto:support@company.com">support@Florist.com</a></p>
   </div>
 
 </div>
 
-<div class="footer-right">
+<div className="footer-right">
 
-  <p class="footer-company-about">
+  <p className="footer-company-about">
     <span>About the company</span>
     Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
   </p>
 
-  <div class="footer-icons">
+  <div className="footer-icons">
 
     <a href="#">
       <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAApUlEQVRIie3SsQkCQRCF4U8zwUCswszIHixBi7ABa7AGmzmt4RIFsQETozM4I1GPW3TPDUTvwcCyy5v/7TD8mwZYYYcLChwwTtF8iBxlTS1Cpm4EYIlR4O0U0SeovefUa8wwFRc0qKIC6L1j6kQAyibeJF/7BLB1H0lVt/szJk0D1K1kXc1DDVKN6NjUmHmdPkc/1OD3t6gFtIC0gM3DOUsd5Ht1BfnVM9MF+929AAAAAElFTkSuQmCC"/>
@@ -67,7 +67,7 @@ const Footer = () => {
     </a>
 
   </div>
-  <div class="credit">Made with ❤ by Jasmine</div>
+  <div className="credit">Made with ❤ by Jasmine</div>
 
 
 </div>

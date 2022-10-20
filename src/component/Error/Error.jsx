@@ -5,14 +5,14 @@ function Error() {
   return (
     <div>
            	<div id ="container">
-   		<div class ="container-notfound">
-   			<div class="error-message-header">
-   				<div class="message-header"><h3> Page not Found!!!! </h3></div>
+   		<div className ="container-notfound">
+   			<div className="error-message-header">
+   				<div className="message-header"><h3> Page not Found!!!! </h3></div>
 
    			</div>
 
-   			<div class="error-message-content">
-   				<div class="message-content">
+   			<div className="error-message-content">
+   				<div className="message-content">
 
    					<h1>404</h1>
    				</div> 
@@ -20,8 +20,8 @@ function Error() {
 
 
    			</div>
-   			<div class="error-message-footer">
-               <a href="/"  class="btn btn-danger">Back to Home</a>
+   			<div className="error-message-footer">
+               <a href="/"  className="btn btn-danger">Back to Home</a>
    			</div>
 
 

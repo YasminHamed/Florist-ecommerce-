@@ -8,20 +8,20 @@ const About = () => {
         <h1 className="shop" >About us</h1>
       </div>
 
-  <div class="container">
+  <div className="container">
 
-    <div class="wrapper">
-      <div class="hr">
+    <div className="wrapper">
+      <div className="hr">
         <hr/>
         <h2>Our Mission</h2>
         <hr/>
       </div>
 
-      <p class="mission-txt">"To Provide Quality Flowers at Low Cost"</p>
+      <p className="mission-txt">"To Provide Quality Flowers at Low Cost"</p>
 
     </div>
 
-    <div class="wrapper">
+    <div className="wrapper">
       <h2>About</h2>
       <div>
         <img className="flow mt-5 mb-4" width="400px" src="https://cdn.shopify.com/s/files/1/0259/2119/1998/products/custom_resized_462ec3d6-ef84-4b56-ab9e-081d5ed89d8f_2048x2048.jpg?v=1621548235" alt="img"/>
@@ -40,10 +40,10 @@ The tenderness of the flower along with its fragrances is what makes it desirabl
       </div>
     </div>
 
-    <div class="wrapper">
+    <div className="wrapper">
       <h2>principal</h2>
-      <div class="faculties">
-        <div class="unit">
+      <div className="faculties">
+        <div className="unit">
           <img src="https://vidyasheela.com/web-contents/website-components/About-Us-Pages/responsive-about-us-page-html/vice-principal.jpg" alt=""/>
           <p>Lawn Sethi, Vice Principal</p>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus unde aliquid laborum voluptatum distinctio nobis?'</p>
